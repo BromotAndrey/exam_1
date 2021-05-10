@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css?family=Aleo:regularc&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,regular,700 &display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.travel__header {
+  background: url(../img/HeaderBackground.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.travel__navigation {
+  background: #5373fd;
+}
+.travel__why {
+  background: url(../img/WhyBackground.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.travel__steps {
+  background: #333333;
+}
+.travel__book1 {
+  background: url(../img/render-1477041_12801.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.travel__book2 {
+  background: url(../img/spain-1859434_12801.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.travel__whattouristsay {
+  background: url(../img/BG2.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.travel-footer {
+  background: #000000;
+}
+
+.travel-text__verysmall {
+  padding-top: 44px;
+  padding-left: 32px;
+  padding-bottom: 16px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.travel-text__small {
+  padding-left: 32px;
+  padding-bottom: 24px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.travel-text__submiddle {
+  padding-top: 32px;
+  margin-bottom: 32px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.travel-text__middle {
+  padding-left: 32px;
+  padding-bottom: 16px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.travel-text__bigger {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.travel-text__bigger-last {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.travel-bigger {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footer-text__small {
+  margin-bottom: 22px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.header__form {
+  margin-top: -142px;
+}
+
+.header__content {
+  text-align: center;
+}
+
+.header-title {
+  font-family: "Josefin", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2.3rem;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 295px;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-family: "Josefin", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 3.3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.travel__header .text {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  margin: 16% 16% 0%;
+}
+
+.travel__header .text input {
+  width: 78%;
+  height: 98%;
+  border: none;
+}
+
+.travel__header button {
+  width: 21%;
+  height: 85%;
+  background-color: #5373fd;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.1em;
+}
+
+.travel__header .travel__name::placeholder {
+  font-family: "Josefin", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #999999;
+}
+
+.travel__header .header__chevron {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 0 2%;
+  margin-top: 211px;
+  margin-bottom: -10px;
+  padding-bottom: 140px;
+}
+
+.chevron {
+  width: 14px;
+  height: 16px;
+  margin: 0;
+}
+
+.sam {
+  display: flex;
+}
+
+.travel-spain__book1 {
+  margin-top: 220px;
+  margin-bottom: 120px;
+  background: rgba(35, 35, 35, 0.9);
+}
+.travel-spain__book2 {
+  margin-top: 220px;
+  margin-bottom: 120px;
+  background: rgba(35, 35, 35, 0.9);
+}
+
+.travel-button__explores {
+  width: 213px;
+  height: 60px;
+  margin-left: 32px;
+  background: #486bfe;
+  margin-bottom: 190px;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.travel-button__books {
+  width: 213px;
+  height: 60px;
+  margin-left: 32px;
+  background: #486bfe;
+  margin-bottom: 44px;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.back {
+  margin-left: 300px;
+  margin-bottom: 180px;
+}
+
+.travel-footer {
+  text-align: center;
+}
+
+.travel-footer__distance {
+  margin-bottom: 80px;
+}
+.travel-footer__distance1 {
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+
+.margeningtotheright {
+  margin-top: 16px;
+  margin-left: 50px;
+}
+
+.container__why {
+  margin-top: 190px;
+}
+
+.desctop-nav__list {
+  display: flex;
+  list-style: none;
+  padding-top: 32px;
+}
+
+.desctop-nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu__link {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.travel__steps {
+  text-align: center;
+}
+
+.burger {
+  display: none;
+  width: 42px;
+  height: 24px;
+  outline: 0;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.burger span,
+.burger::before,
+.burger::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transition: all 1s;
+}
+
+.burger::before {
+  top: 0;
+  position: absolute;
+}
+
+.burger::after {
+  bottom: 0;
+  position: absolute;
+}
+
+.menu-open .burger::before {
+  transform: rotate(45deg);
+  top: 11px;
+}
+
+.menu-open .burger::after {
+  transform: rotate(-45deg);
+  bottom: 11px;
+}
+
+.menu-open span {
+  opacity: 0;
+}
+
+@media (max-width: 767.98px) {
+  .burger {
+    display: block;
+  }
+}
+.mobile-nav {
+  position: fixed;
+  top: 86px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: none;
+  text-align: center;
+}
+
+.mobile-nav__list {
+  margin: auto;
+  list-style: none;
+}
+
+.mobile-nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.mobile-nav__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.menu-open .mobile-nav {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .menu-open .mobile-nav {
+    display: flex;
+  }
+}
+@media (max-width: 767.98px) {
+  .desctop-nav {
+    display: none;
+  }
+}
+.desctop-nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.desctop-nav__item:not(:last-child) {
+  margin-right: 20px;
+}
